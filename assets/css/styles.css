@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --header-height: 3.5rem;
+  
+  --hue: 152;
+  --first-color: hsl(var(--hue), 24%, 32%);
+  --first-color-alt: ;
+  --first-color-light: ;
+  --first-color-lighten: ;
+  --title-color: 
+  --text-color: 
+  --text-color-light: 
+  --body-color: ;
+  --container-color: ;
+
+
+  --body-font: ;
+  --big-font-size: ;
+  --h1-font-size: ;
+  --h2-font-size: ;
+  --h3-font-size: ;
+  --normal-font-size: ;
+  --small-font-size: ;
+  --smaller-font-size: ;
+
+
+  --mb-0-5: ;
+  --mb-0-75: ;
+  --mb-1: ;
+  --mb-1-5: ;
+  --mb-2: ;
+  --mb-2-5: ;
+
+  --z-tooltip: ;
+  --z-fixed: ;
+}
