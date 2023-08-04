@@ -1,7 +1,6 @@
-/*=============== GOOGLE FONTS ===============*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem; /*56px*/
 
@@ -29,7 +28,6 @@
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
 
-  /*========== Font weight ==========*/
   --font-medium: 500;
   --font-semi-bold: 600;
 
@@ -42,12 +40,10 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
 
-  /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
 }
 
-/* Responsive typography */
 @media screen and (min-width: 968px) {
   :root {
     --big-font-size: 3.5rem;
@@ -60,7 +56,6 @@
   }
 }
 
-/*=============== BASE ===============*/
 *{
   box-sizing: border-box;
   padding: 0;
@@ -83,7 +78,7 @@ body{
   margin: var(--header-height) 0 0 0;
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: .4s; /*For animation dark mode*/
+  transition: .4s; 
 }
 
 button{
@@ -108,6 +103,22 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.section {
+  padding: 5.5rem 0 1rem;
+}
+
+
+.section__title,
+.section__title-center {
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-2);
+  line-height: 140%;
+}
+
+.section__title-center {
+  text-align: center;
 }
 
 .container {
@@ -311,4 +322,58 @@ img {
   display: inline-flex;
   align-items: center;
   column-gap: .5rem;
+}
+
+.about__container {
+  row-gap: 2rem;
+}
+
+.about__img {
+  width: 280px;
+  justify-self: center;
+}
+
+.about__title {
+  margin-bottom: var(--mb-1);
+}
+
+.about__description {
+  margin-bottom: var(--mb-2);
+}
+
+.about__details {
+  display: grid;
+  row-gap: 1rem;
+  margin-bottom: var(--mb-2-5);
+}
+
+.about__details-description {
+  display: inline-flex;
+  column-gap: .5rem;
+  font-size: var(--small-font-size);
+}
+
+.about__details-icon {
+  font-size: 1rem;
+  color: var(--first-color);
+  margin-top: .15rem;
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+}
+
+.button--link {
+  color: var(--first-color);
+  font-weight: var(--font-medium);
+}
+
+.button--link:hover .button__icon {
+  transform: translateX(.25rem);
+}
+
+.scroll-header {
+  box-shadow: 0 1px 4px hsla(var(--hue), 4%, 15%, .1);
 }
