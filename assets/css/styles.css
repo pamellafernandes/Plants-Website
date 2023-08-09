@@ -377,3 +377,49 @@ img {
 .scroll-header {
   box-shadow: 0 1px 4px hsla(var(--hue), 4%, 15%, .1);
 }
+
+.steps__bg {
+  background-color: var(--first-color);
+  padding: 3rem 2rem 2rem;
+  border-radius: 1rem;
+}
+
+.steps__container {
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+.steps__title {
+  color: #FFF;
+}
+
+.steps__card {
+  background-color: var(--container-color);
+  padding: 2.5rem 3rem 2rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.steps__card-number {
+  display: inline-block;
+  background-color: var(--first-color-alt);
+  color: #FFF;
+  padding: .5rem .75rem;
+  border-radius: .25rem;
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-1-5);
+  transition: .3s;
+}
+
+.steps__card-title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.steps__card-description {
+  font-size: var(--small-font-size);
+}
+
+.steps__card:hover .steps__card-number {
+  transform: translateY(-.25rem);
+  cursor: pointer;
+}
