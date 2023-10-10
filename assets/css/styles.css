@@ -754,3 +754,41 @@ img {
   color: var(--text-color-light);
   margin: 5rem 0 1rem;
 }
+
+.scrollup {
+  position: fixed;
+  background-color: var(--first-color);
+  right: 1rem;
+  bottom: -30%;
+  display: inline-flex;
+  padding: .5rem;
+  border-radius: .25rem;
+  z-index: var(--z-tooltip);
+  opacity: .8;
+  transition: .4s;
+}
+
+.scrollup__icon {
+  font-size: 1rem;
+  color: #FFF;
+}
+
+.scrollup:hover {
+  background-color: var(--first-color-alt);
+  opacity: 1;
+  transition: .5;
+}
+
+.show-scroll {
+  bottom: 3rem;
+}
+
+::-webkit-scrollbar{
+  width: .6rem;
+  background: hsl(var(--hue), 4%, 53%);
+}
+
+::-webkit-scrollbar-thumb{
+  background: hsl(var(--hue), 4%, 29%);
+  border-radius: .5rem;
+}
