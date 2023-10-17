@@ -8,6 +8,14 @@
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
-Credits to Bedimcode, an excellent mentor. [Bedimcode](https://www.youtube.com/c/Bedimcode)
+
+### Deploy 🎍
+[Plants Website](https://plants-website-lime.vercel.app/)
+
+<br/>
+<br/>
 
 ![plants website](/preview.png)
+
+
+Credits to Bedimcode, an excellent mentor. [Bedimcode](https://www.youtube.com/c/Bedimcode)
