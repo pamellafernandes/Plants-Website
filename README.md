@@ -1,13 +1,19 @@
-# Responsive Plants Website 🎍
+<strong><h1 align="center">Responsive Plants Website 🎍</h1></strong>
 
-### Responsive Plants Website 🎍
+<p align="center">
+  <img alt="" src="preview.png" width="100%">
+</p>
 
-- Responsive Plants Website Using HTML, CSS and JavaScript.
-- Contains animations when scrolling.
-- Includes a dark and light mode.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+## 🚀 Tecnologias
 
-Credits to Bedimcode, an excellent mentor. [Bedimcode](https://www.youtube.com/c/Bedimcode)
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-![plants website](/preview.png)
+- HTML
+- CSS
+- JavaScript
+
+## 🌍 Acesse o site:
+
+- [Plants Website](https://plants-website-lime.vercel.app/)
+
+Feito com ♥ by Pamella Fernandes
